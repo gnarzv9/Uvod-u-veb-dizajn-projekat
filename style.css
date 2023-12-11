@@ -1,8 +1,38 @@
 body{
     background-color: black;
 }
- dodati margine i padding i crveno i tako to za navbar promeniti ga
 
- naci sve za verziju 5.3.2 
+.navbar-brand{
+    background-color: red;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
 
- i autoscroll carousel 
+.navbar-brand:hover{
+   color: white;
+}
+
+.nav-item .nav-link{
+    background-color: red;
+    margin-left:50px;
+    font-weight: bold;
+    width:300px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.ss{
+    margin-left: 190px;
+}
+
+.bg-body-tertiary{
+    background-color: black;
+}
+
+.navbar {
+    background-color: #000000 !important; 
+  }
