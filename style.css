@@ -1,11 +1,10 @@
 body{
-    background-color: black;
+    background-color: black;   
 }
 
 .navbar-brand{
     background-color: red;
-    padding-left:20px;
-    padding-right:20px;
+    padding : 0px 20px 0px 20px;
     color:white;
     font-weight: bold;
     font-size: 30px;
@@ -36,3 +35,83 @@ body{
 .navbar {
     background-color: #000000 !important; 
   }
+
+.container1 {
+    position: relative;
+}
+
+.karte{
+    position: absolute;
+    left:700px;
+    font-size: 120px;
+    color: white;
+    background-color: red;
+    border: solid 2px black;
+    padding: 30px;
+    font-weight: bold;
+}
+.pocetna1{
+    height: 600px;
+}
+.pocetna2 {
+    position: absolute;
+    left:550px;
+    top:50px;
+    width:900px;
+}
+
+.exittext{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.ponuda{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.promocena{
+    color:red;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cena{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px; 
+}
+
+.kupi{   
+    background-color:green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px; 
+}
+
+.footer{
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size:24px;
+}
+
+.opismuzicara{
+    color:white;
+    text-align: center;
+    font-size:44px;
+    font-weight: bold;
+}
+
+.opismuzicara1{
+    color:white;
+    text-align: center;
+    font-size:56px;
+    font-weight: bold;
+}
